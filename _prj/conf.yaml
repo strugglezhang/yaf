@@ -1,0 +1,38 @@
+diy :
+    dev :
+        PRJ_NAME : "dev_yaf"
+        DOMAIN : "yaf.com"
+        PREFIX : "dev."
+        PRJ_ROOT : "/Users/qietv/www/yaf/src/public"
+        YAFENV   : "dev"
+        PHP_ERROR: "E_ALL & ~E_NOTICE"
+        DISPLAY_ERRORS: "On"
+        OPCACHE_ENABLE : 1
+        CACHE : 1
+    online :
+        PRJ_NAME : "online_yaf"
+        PRJ_ROOT : "dev_yaf"
+        DOMAIN : "yaf.com"
+        PREFIX : ""
+        YAFENV   : "online"
+        PHP_ERROR: "E_ALL & ~E_NOTICE"
+        DISPLAY_ERRORS: "Off"
+        OPCACHE_ENABLE : 1
+        CACHE : 1
+env :
+    dev :
+        PHP : '/usr/bin/php'
+        PYTHON : '/usr/bin/python'
+        NGINX :  '/usr/local/bin/nginx'
+        PHP-FPM : '/usr/sbin/php-fpm'
+        PHP-INI-SCAN: "/usr/local/etc/php/7.3/conf.d"
+        NGINX-CONF-SCAN : "/usr/local/etc/nginx/servers/"
+        FPM-PID : "/usr/local/var/run/php-fpm.pid"
+    online :
+        PHP : '/usr/bin/php'
+        PYTHON : '/usr/bin/python'
+        NGINX :  '/usr/local/bin/nginx'
+        PHP-FPM : '/usr/sbin/php-fpm'
+        PHP-INI-SCAN: "/usr/local/etc/php/7.3/conf.d"
+        NGINX-CONF-SCAN : "/usr/local/etc/nginx/servers/"
+        FPM-PID : "/usr/local/var/run/php-fpm.pid"
