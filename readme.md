@@ -1,29 +1,3 @@
-关键文件夹:
-=====
-  1.controllers
-  ---
-    1.1 action，相当于原来Pylon中的action
-    1.2 此目录下，类名=文件名.'Controller'
-    1.3 Yaf会自动加载此目录下的文件
-    1.4 文件名首字母大写
-  2.models
-  ---
-    1.1 svc，相当于原来Pylon中的logic/bizservice
-    1.1 此目录下，类名=文件名.'Model'
-    1.3 Yaf会自动加载此目录下的文件
-    1.4 文件名首字母大写
-  3.library
-  ---
-    1.1 本地底层类库，相当于logic/mechanism
-    1.2 此目录下，类名=文件名
-    1.3 Yaf会自动加载此目录下的文件
-    1.4 Mysql,Redis,Log等基础类库可以放在此目录下
-    1.5 可以在application.ini里面设置application.library来改变此目录
-    1.6 文件名首字母大写
-  4.plugins
-  ---
-    1.1 插件，结合yaf自定义的6个勾子使用
-
 关键文件：
 =====
   1.public/index.php，默认的入口文件<br>
